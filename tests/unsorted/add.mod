@@ -1,0 +1,8 @@
+MODULE add;
+
+PROCEDURE add1(a, b: INTEGER): INTEGER;
+BEGIN
+   RETURN a + b
+END add1;
+
+END add.

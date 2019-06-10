@@ -1,0 +1,10 @@
+MODULE hello;
+TYPE t = RECORD x : INTEGER END;
+p = POINTER TO t;
+VAR P : p;
+BEGIN
+ NEW(P);
+ DISPOSE(P);
+END hello.
+
+
